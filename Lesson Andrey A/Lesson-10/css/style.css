@@ -1,0 +1,18 @@
+body{
+	background: #fff;
+	color: grey;
+	font-family: Calibri, sans-serif;
+}
+
+article {
+	max-width: 900px;
+	margin: 0 auto;
+	background: yellow;	
+}
+.test {
+	background: white;
+	
+}
+p span {
+	background: red;
+}Ы

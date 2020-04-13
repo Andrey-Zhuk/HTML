@@ -1,0 +1,98 @@
+.test1:link {
+	background-color: coral;
+	color: black;
+}
+
+.a:visited {
+	background: fuchsia;
+	color: black;
+}
+
+.test3:hover {
+	background: ivory;
+	color: red;
+}
+
+.test4:active {
+	background: lawngreen;
+	color: black;
+}
+
+h1:first-letter {
+	font-size: 24px;
+	color: red;
+}
+h2:first-letter {
+	font-size: 24px;
+	color: red;
+}
+h3:first-letter {
+	font-size: 24px;
+	color: red;
+}
+
+.test::first-line {
+	font-style: italic;
+}
+
+.test:before {
+	content: "!!!";
+}
+
+.test::after {
+	content: "!!!";
+}
+
+p::selection {
+	color: gray;
+	background: black;
+}
+
+h1::selection {
+	color: gray;
+	background: black;
+}
+
+
+/* a:hover {
+	color: red;
+}
+
+a:active {
+	font-size: 20px;
+	color: red;
+}
+
+a:link {
+	color: green; 
+}
+
+a:visited {
+	color: indigo;
+}
+p:first-letter {
+	font-size: 30px;
+	color: red;
+}
+p:first-line {
+	text-transform: capitalize;
+}
+
+input:focus {
+	background: seagreen;
+	border-color: red;
+} 
+
+.test:before {
+	content: "УРА!!!";
+}
+
+.test:after {
+	content: "окончание!!!";
+}
+
+::selection {
+	color: white;
+	background: black;
+} */
+

@@ -1,0 +1,25 @@
+img[title="картинка первая"] {
+	border: 2px;
+	width: 150px;
+}
+
+img[ title="картинка вторая"] {
+	height: 150px;
+	border: 10px solid red;
+	border-color: red;
+}
+
+img[title="картинка третья"] {
+	align-content: center;
+	background: orange;
+}
+
+a[href="https://yandex.ua"] {
+	text-transform: lowercase;
+	color: black;
+}
+
+a[href="https://sabziro.com"] {
+	color: black;
+	background: red;
+}

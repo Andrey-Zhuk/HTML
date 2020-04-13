@@ -1,0 +1,30 @@
+
+h1 {
+	font-size: 30px;
+	text-transform: uppercase;
+	color: blue;
+	text-align: center;
+}
+h2 {
+	font-size: 25px;
+	color: blue;
+	text-transform: capitalize;
+}
+
+p {
+	background: red; 
+	font-size: 20px;
+	color: yellow;
+}
+p.pinc1 {
+	background: pink;
+	color: black;
+}
+
+p#two-list {
+	background: green;
+}
+
+body.fon {
+	background: indigo;
+}
