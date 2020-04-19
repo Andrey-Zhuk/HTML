@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Lesson 21</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+<body>
+	<article>
+		<h1>Форма ученика HTML</h1>
+		<form method="post" action="/" class="subform">
+			<p>
+				<label for="name">как вас зовут</label>
+				<input type="text" name="name" id="name">
+			</p>
+			<p>
+				<label for="email">Введите вашу почту</label>
+				<input type="email" name="email" id="email">
+			</p>
+			<p>есть опыт изучений:
+				<label>
+					<input type="radio" name="skill" value="1">
+					javaScript
+				</label>
+				<label>
+					<input type="radio" name="skill" value="2">
+					HTML CSS
+				</label>
+				<label>
+					<input type="radio" name="skill" value="3">
+					PHP
+				</label>
+			</p>
+			<p>
+				<label for="goal">какую цель приследую:</label>
+				<select name="goal" id="goal">
+					<option>Хочу сменить профессию</option>
+					<option>Повысить скил</option>
+					<option>Как хобби</option>
+					<option>Хочу быть фрилансером</option>
+				</select>	
+			</p>
+			<p>
+				<label for="comments">Ваши пожелания</label>
+				<textarea name="comments" id="comments" cols="40" rows="5">
+				</textarea>
+			</p>
+			<p>
+				<input type="submit" value="Отправить">
+			</p>
+		</form>
+	</article>
+</body>
+</html>

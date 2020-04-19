@@ -1,0 +1,23 @@
+body{
+	padding: 60px;
+}
+p.test1 {
+	width: 500px;
+	border: 1px solid #003;
+	padding: 3px;
+	transform: scale(0.3);
+}
+
+
+a.button {
+	background-color: orange;
+	font-size: 18px;
+	transition-property:background-color, font-size; 
+	transition-duration: 1s, 2s;
+	transition-delay: 1s;
+}
+
+a.button:hover {
+	background-color: red;
+	font-size: 22px;
+}

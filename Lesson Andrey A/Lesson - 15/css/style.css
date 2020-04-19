@@ -1,0 +1,28 @@
+body{
+	padding: 20px;
+}
+
+
+p.test2 {
+	border: 2px solid #000;
+	background: red;
+	border-radius: 40px/20px;
+	padding: 5px;
+	
+	min-height: 100px;
+	max-width: 30em;
+	overflow: auto;
+} 
+
+p {
+	box-shadow: 4px 4px 18px #000; 
+}
+h2 {
+	width: 300px;
+	padding: 15px;
+	border-width: 5px;
+	margin: 10px;
+	border: 2px solid #000;
+	box-sizing: border-box;
+} 
+ 

@@ -1,0 +1,27 @@
+body{
+	padding: 20px;
+}
+a {
+	display: block;
+	border: 5px ridge red;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+}
+p.test {
+	border: 5px double black;
+	
+}
+p.test strong {
+	border: 2px solid black;
+	margin-top: 30px;
+	display: inline-block;
+	padd
+}
+p.test2 {
+	 
+	border: 1px solid red;
+}
+li {
+	display: inline;
+}
